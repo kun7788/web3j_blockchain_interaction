@@ -10,3 +10,14 @@ todo:
 * dummy code that shows interaction between java (web3j) and the contract
 * dummy code that shows how to use whisper
 * dummy code for doing the above with a jason agent
+
+
+Before running the code with 'gradle run', execute the shell-script
+'start_chain.sh' and enter 'miner.start()' on the geth command-line it 
+brings up.
+
+The chain can be monitored with the mist wallet like this:
+
+'mist --rpc /tmp/smartcontract_chaindata/geth.ipc'
+
+
